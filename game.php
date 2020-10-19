@@ -23,7 +23,7 @@ $computer = rand(0,2);
 // where "You" is the human being addressed by the computer
 function check($computer, $human) {
     // For now this is a rock-savant checking function
-    if ( ($human == 0 && $computer == 0) || ($human == 1 && $computer == 1) || ($human == 2 && $computer == 2) ) {
+    if ( $human == $computer ) {
         return "Tie";
     } else if ( ($human == 0 && $computer == 2) || ($human == 1 && $computer == 0) || ($human == 2 && $computer == 1) ) {
         return "You Win";
