@@ -1,4 +1,4 @@
-Broken Rock Paper Scissors
+Rock Paper Scissors Ejercicio David Jiménez Villarejo
 --------------------------
 
 Here is a URL to the broken version of this application:
